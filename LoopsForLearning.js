@@ -50,8 +50,8 @@ CONTROLE DA MINHA VARIAVEL DE CONTROLE(OU CONTADOR TABÉM): Podendo incrementar 
 
 PERCEBA:
 Tanto a INICIALIZAÇÃO DA VARIAVEL DE CONTROLE e CONTROLE DA MINHA VARIAVEL DE CONTROLE
-podem serem chamadas de CONTADOR por que epresentam a variável que atua como um contador,
-controlando o número de iterações do loop "for"
+podem serem chamadas de CONTADOR por que representam a variável que atua como um contador,
+controlando o número de iterações do loop "for".
 
 
 SINTAXE:
@@ -79,7 +79,7 @@ enquanto verdade.
 i < num
 
 CONTROLE DA MINHA VARIAVEL DE CONTROLE: 
-contagem, a cada iteração vou incrementar ou decrementar minha variavel de controle:
+contagem a cada iteração, incrementando ou decrementando minha variavel de controle.
 i++
 
 
@@ -271,7 +271,7 @@ for(let controle of array){
 
 Onde:
 
-let controle: variavel de controle que imprime o elemento do array.
+let controle: variavel de controle que recebera o elemento do array.
 
 array: Array a ser percorrido.
 
@@ -287,6 +287,12 @@ O objetivo do "for of" é iterar diretamente sobre os valores do objeto iteráve
 não os índices ou chaves.
 */
 
+/*
+Ao utilizar o loop "for of" para iterar sobre o array,
+eu vou criar a variável "element" representando cada elemento do array.  
+Sendo assim, será alterada a variavel a cada iteração,
+imprimindo diretamente cada elemento do array.
+*/
 
 /*Exemplo for of*/
 
